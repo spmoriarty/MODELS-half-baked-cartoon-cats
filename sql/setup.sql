@@ -5,10 +5,10 @@ CREATE table cats (
     id BIGINT GENERATED ALWAYS AS IDENTITY,
     name VARCHAR NOT NULL,
     type VARCHAR NOT NULL,
-    url VARCHAR NOT NULL,
     year INT,
     lives INT,
-    isSidekick BOOLEAN NOT NULL
+    isSidekick BOOLEAN NOT NULL,
+    url VARCHAR
 );
 
 INSERT INTO cats (name, type, year, lives, isSidekick, url) VALUES
