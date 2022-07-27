@@ -11,8 +11,8 @@ CREATE table cats (
     isSidekick VARCHAR NOT NULL
 );
 
-INSERT INTO cats (name, type, year, lives, isSidekick) VALUES
-('Felix', 'Tuxedo', 1892, 3, 'false'),
-('Garfield', 'Orange Tabby', 1978, 7, 'false'),
-('Duchess', 'Angora', 1970, 9, 'false'),
-('Stimpy', 'Manx', 1990, 1, 'true');
+INSERT INTO cats (name, type, url, year, lives, isSidekick) VALUES
+('Felix', 'Tuxedo', 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Felix_the_cat.svg/200px-Felix_the_cat.svg.png', 1892, 3, 'false'),
+('Garfield', 'Orange Tabby', 'https://static.wikia.nocookie.net/garfield/images/9/9f/GarfieldCharacter.jpg', 1978, 7, 'false'),
+('Duchess', 'Angora', 'https://static.wikia.nocookie.net/disney/images/e/eb/Profile_-_Duchess.jpeg', 1970, 9, 'false'),
+('Stimpy', 'Manx', 'https://static.wikia.nocookie.net/renandstimpy/images/c/c1/Ren-stimpy-25-anniversar-hp2.png', 1990, 1, 'true');
