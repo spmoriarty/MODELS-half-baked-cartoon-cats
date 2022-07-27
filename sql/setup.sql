@@ -6,6 +6,7 @@ CREATE table cats (
     id BIGINT GENERATED ALWAYS AS IDENTITY,
     name VARCHAR NOT NULL,
     type VARCHAR NOT NULL,
+    url VARCHAR NOT NULL,
     year INT,
     lives INT,
     isSidekick VARCHAR NOT NULL
