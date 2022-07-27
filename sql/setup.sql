@@ -3,7 +3,7 @@ DROP table if exists cats;
 -- The SQL in this file will be executed when you run `npm run setup-db`
 
 CREATE table cats (
-    id BIGINT GENERATED ALWAYS AS IDENTIY,
+    id BIGINT GENERATED ALWAYS AS IDENTITY,
     name VARCHAR NOT NULL,
     type VARCHAR NOT NULL,
     year INT,
